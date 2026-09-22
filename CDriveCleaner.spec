@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['C:\\Users\\Administrator\\Documents\\c盘清理\\c_drive_cleaner.py'],
+    ['c_drive_cleaner.py'],
     pathex=[],
     binaries=[],
     datas=[],

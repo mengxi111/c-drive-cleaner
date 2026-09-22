@@ -20,6 +20,13 @@ powershell -ExecutionPolicy Bypass -File .\build_exe.ps1
 dist\CDriveCleaner\CDriveCleaner.exe
 ```
 
+## 本地检查
+
+```powershell
+python -m py_compile .\c_drive_cleaner.py
+python -m unittest discover -s tests -v
+```
+
 如需重新干净构建：
 
 ```powershell
